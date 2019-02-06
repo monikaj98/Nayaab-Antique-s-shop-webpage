@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="about.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Fanwood+Text" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="main">
+    <header class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12 nav">
+        <div class="col-md-8 col-sm-4 col-xs-4">
+            <img class="img-responsive logo" src="nayab.png" alt="Nayab Logo">
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12 tags">
+        <nav>
+            <b>
+            <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="menu.html">Menu</a>
+                <a href="signin.html">Sign In</a></b>
+        </nav>
+        </div>
+      </div>
+    </header>
+    <br><br><br><br>
+    <div class="row">
+    <div class="col-md-6 col-sm-12 col-xs-12 heading">
+      <br>
+      <h1>Select Your Choice!!</h1>
+    </div>
+  </div>
+  <br><br>
+    <div class="container">
+      <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <img src="11.jpeg" alt="pizza" height="180" width="310" >
+        <form>
+        <a class="pizza" href="pizza1.html">
+        <button type="button" class="pizza">La Pino'z </button></a><br><br><br>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <img src="ha.jpg" alt="havmor" height="180" width="310"><br>
+        <form>
+        <a class="havmor" href="havmor.html">
+        <button type="button" class="havmor">Havmor</button></a><br><br><br>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <img src="square.jpg" alt="sq1" height="180" width="310"><br>
+        <a class="square" href="menu.html">
+        <button type="button" class="square">Square One </button></a><br><br><br>
+      </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+  <div class="footer-container">
+   <footer id="footer">
+     <div class="row">
+       <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+         <h4 style="font-size:36px;font-family: 'Cinzel Decorative', cursive;"><b>Nayab</b></h4>
+         <ul>
+
+         </ul>
+       </div>
+     <div class="row">
+       <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+         <h4>Information</h4>
+         <nav>
+           <a href="index.html">Categories</a><br>
+           <a href="about.html">About Us</a><br>
+           <a href="gallery.html">Art Gallery</a><br>
+           <a href="index.html">Home</a><br>
+       </nav>
+       </div>
+       <div class="container">
+         <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+           <h4>Follow Us</h4>
+           <a href="https://twitter.com/login?lang=en" > <i class="fa fa-twitter f1" style="width: 35px;height: 35px;"></i></a>
+         <a href="https://www.facebook.com/"><i class="fa fa-facebook f1" style="width: 35px;height: 35px;"></i></a>
+       <a href="https://plus.google.com/people">  <i class="fa fa-google-plus f1" style="width: 35px;height: 35px;"></i></a>
+         <a href="https://in.pinterest.com/"> <i class="fa fa-pinterest f1" style="width: 35px;height: 35px;"></i></a>
+         </div>
+         <div class="row">
+           <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+             <h4>Newsletter Sign Up</h4>
+             <form>
+               <input class="input" type="text" name="email" size="18" id="sign" value="Enter your email">
+               <button class="input" type="submit" onclick="signin()" name="submitNewsletter">
+                 <span><i class="fa fa-arrow-right"></i></span>
+               </button>
+             </form>
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+      </footer>
+      </div>
+   </div>
+   <script>
+   function signin()
+   {
+     var a=document.getElementById("sign")
+     if(a.checkValidity())
+     {
+     alert("You have been subscribed to our newsletter. Get Updated!");
+   }
+   }
+   </script>
+</body>
+</html>

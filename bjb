@@ -1,0 +1,17 @@
+<table id="t01">
+    <tr>
+    <td>Art</td>
+        <td>Bottles</td>
+        <td>Clocks</td>
+        <td>Mirrors</td>
+        <td>Furniture</td>
+        <td>Jewelery</td>
+        <td>Glass</td>
+    </tr>
+</table>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="books.jpg" alt="book" id="i01">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="bino.jpg" alt="bino" id="i01">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="clock.jpg" alt="clock" id="i01">
+</div>
